@@ -30,4 +30,6 @@ MacOs : option + command + i
 
 Window: f12
 
-  
+live-server 여는 법(html 파일에서 실행)
+MacOs : command + shift + p
+Window : ctrl + shift + p
