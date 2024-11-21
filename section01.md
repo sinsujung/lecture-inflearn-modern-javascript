@@ -1,4 +1,4 @@
-HTML 역할
+<!-- HTML 역할
 
 요소들의 내용, 배치, 모양을 정하기 위해 사용하는 언어
 
@@ -33,3 +33,12 @@ Window: f12
 live-server 여는 법(html 파일에서 실행)
 MacOs : command + shift + p
 Window : ctrl + shift + p
+
+변수, 상수란?
+
+변수, 상수는 값을 저장하는 박스
+
+ex
+
+상수/변수: "Hello", "970107", "[1, 2, 3]"
+-->
