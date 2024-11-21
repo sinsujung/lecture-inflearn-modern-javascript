@@ -41,4 +41,50 @@ Window : ctrl + shift + p
 ex
 
 상수/변수: "Hello", "970107", "[1, 2, 3]"
+
+자료형이란?
+
+자료형(Type) = 집합
+
+동일한 속성이나 특징을 가진 원소들을 묶은 것
+
+ex. 고양이와 강아지는 "동물"이라는 집합으로 묶임
+
+String 타입
+
+ex) "", "Hello", "winterlood", "한입리액트", "이정환"
+
+Number 타입
+
+ex) -20, 0.25, 729, -0.123, 0
+
+JavaScript의 자료형(Data Type)
+
+원시 타입
+
+기본형 타입이라고도 불림
+
+프로그래밍에 있어 가장 기본적인 값들의 타입을 의미함
+- Number
+
+- String
+
+- Boolean
+
+- Null
+
+- Undefined
+
+
+객체 타입
+
+- Object
+
+- Array
+
+- Function
+
+- REgexExp
+
+
 -->
