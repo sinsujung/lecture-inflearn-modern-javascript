@@ -34,7 +34,8 @@ live-server 여는 법(html 파일에서 실행)
 MacOs : command + shift + p
 Window : ctrl + shift + p
 
-변수, 상수란?
+
+[변수, 상수란?]
 
 변수, 상수는 값을 저장하는 박스
 
@@ -42,7 +43,8 @@ ex
 
 상수/변수: "Hello", "970107", "[1, 2, 3]"
 
-자료형이란?
+
+[자료형이란?]
 
 자료형(Type) = 집합
 
@@ -58,7 +60,8 @@ Number 타입
 
 ex) -20, 0.25, 729, -0.123, 0
 
-JavaScript의 자료형(Data Type)
+
+[JavaScript의 자료형(Data Type)]
 
 원시 타입
 
@@ -86,7 +89,8 @@ JavaScript의 자료형(Data Type)
 
 - REgexExp
 
-형 변환이란?
+
+[형 변환이란?]
 
 형 변환(Type Casting)
 
@@ -102,9 +106,17 @@ Number Type 10을 String Type의 "10"으로 변환하는 것
 
 개발자가 직접 함수 등을 이용해 형 변환을 일으킴
 
-연산자란(Operator)란?
+
+[연산자란(Operator)란?]
 
 프로그래밍에서의 다양한 연산을 위한 기호, 키워드를 말함
 
+조건문(Conditional Statement)이란?
+
+특정 조건을 만족했을 때에만 실행되는 코드를 작성하기 위한 문법
+
+대표적으로 if, switch 조건문 이 존재함
+
+변수의 값을 기준으로 각각 다른 코드를 실행시키고 싶을 때는 switch문, 복잡한 여러개의 조건을 사용하고 싶을 때는 if문을 사용한다.
 
 -->
