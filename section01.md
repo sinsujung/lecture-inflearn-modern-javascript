@@ -135,4 +135,19 @@ Number Type 10을 String Type의 "10"으로 변환하는 것
 
 함수로 해결 가능
 
+
+[콜백 함수(Callback Function)란?]
+
+자신이 아닌 다른 함수에, 인수로써 전달된 함수를 의미 함
+
+function main(value) {
+ value();
+}
+
+function sub() {
+ console.log("sub");
+}
+
+main(sub); // 메인이라는 다른 함수에 인수로써 전달 된 함수를 callback 함수라고 함.
+
 -->
