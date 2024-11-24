@@ -162,4 +162,16 @@ function funcA() {
 }
 
 console.log(a); // -> a 접근 불가능 영역
+
+
+[객체(Object)란?]
+
+객체를 이용하면 현실세계에 존재하는 어떤 사물이나 개념을 표현하기 용이함
+
+let person = {
+  name: "이정환",
+  nickname: "winterlood",
+  age: 27,
+  location: "목동"
+};
 -->
