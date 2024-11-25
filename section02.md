@@ -25,4 +25,8 @@ console.log(varA && varB);
 // OR 연산자
 // 앞에 varB 변수에 True 값을 넣는다
 console.log(varB || varA);
+
+[구조 분해 할당이란?]
+
+배열이나 객체에 저장된 여러개의 값들을 분해해서 각각 다른 변수에 할당하는 문법
 -->
