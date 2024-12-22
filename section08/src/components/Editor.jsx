@@ -1,5 +1,6 @@
 import './Editor.css';
 import {useState, useRef} from "react";
+
 const Editor = ({onCreate}) => {
     const [content, setContent] = useState("");
     const contentRef = useRef();
@@ -19,7 +20,7 @@ const Editor = ({onCreate}) => {
             contentRef.current.focus();
             return;
         }
-        onCreate();
+        onCreate(content);
         setContent("");
     };
     
