@@ -1,9 +1,11 @@
 import './App.css';
-import { Routes, Route, Link, useNavigate} from "react-router-dom";
+import { Routes, Route, Link, useNavigate } from "react-router-dom";
 import Home from "./pages/Home";
 import Diary from "./pages/Diary";
 import New from "./pages/New";
 import Notfound from "./pages/Notfound";
+
+import { getEmotionimage } from './util/get-emotion-image';
 
 
 // 1. "/" : 모든 일기를 조회하는 Home 페이지
@@ -18,6 +20,13 @@ function App() {
 
   return (
   <>
+    <div>
+      <img src={getEmotionimage(1)} />
+      <img src={getEmotionimage(2)} />
+      <img src={getEmotionimage(3)} />
+      <img src={getEmotionimage(4)} />
+      <img src={getEmotionimage(5)} />
+    </div>
     <div>
       <Link to={"/"}>Home</Link>
       <Link to={"/new"}>New</Link>
