@@ -7,8 +7,6 @@ import New from "./pages/New";
 import Edit from "./pages/Edit";
 import Notfound from "./pages/Notfound";
 
-import Button from "./components/Button";
-import Header from "./components/Header";
 
 const mockData = [
   {
