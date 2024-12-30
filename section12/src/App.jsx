@@ -86,45 +86,19 @@ const mockData = [
   };
   return (
     <>
-    <button 
-      onClick={() => {
-        onCreate(new Date().getTime(), 1, "Hello");
-      }}
-    >
-      일기 추가 테스트
-    </button>
-    
-    <button 
-      onClick={() => {
-        onUpdate(1, new Date().getTime(), 3, "수정된 일기입니다");
-      }}
-    >
-      일기 수정 테스트
-    </button>
-
-    <button 
-      onClick={() => {
-        onDelete(1);
-      }}
-    >
-      일기 삭제 테스트
-    </button>
-    
-      <Header title={"Header"} leftChild={<Button text={"<"} />} rightChild={<Button text={">"} />}/>
-
-  <DiaryStateContext.Provider value={data}>
-    <DiaryDispatchContext.Provider value ={{
-      onCreate, onUpdate, onDelete,
-    }}>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/new" element={<New />} />
-        <Route path="/diary/:id" element={<Diary />} />
-        <Route path="/edit/:id" element={<Edit />} />
-        <Route path="/*" element={<Notfound />} />
-      </Routes>
-      </DiaryDispatchContext.Provider>
-  </DiaryStateContext.Provider>
+      <DiaryStateContext.Provider value={data}>
+        <DiaryDispatchContext.Provider value ={{
+          onCreate, onUpdate, onDelete,
+        }}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/new" element={<New />} />
+            <Route path="/diary/:id" element={<Diary />} />
+            <Route path="/edit/:id" element={<Edit />} />
+            <Route path="/*" element={<Notfound />} />
+          </Routes>
+          </DiaryDispatchContext.Provider>
+      </DiaryStateContext.Provider>
     </>
   );
 }
